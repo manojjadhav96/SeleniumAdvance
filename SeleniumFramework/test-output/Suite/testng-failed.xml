@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="pom.accenture.utilities.MyListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="pom.accenture.test.RegistrationTest">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- pom.accenture.test.RegistrationTest -->
+      <class name="pom.accenture.utilities.LoginTest">
+        <methods>
+          <include name="LoginInvalied"/>
+        </methods>
+      </class> <!-- pom.accenture.utilities.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
